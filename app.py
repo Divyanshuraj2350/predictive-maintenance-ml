@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load trained model
-model = joblib.load("app/predictive_maintenance_model.pkl")
+model = joblib.load("predictive_maintenance_model.pkl")
 
 st.title("Predictive Maintenance System")
 
